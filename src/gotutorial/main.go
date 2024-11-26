@@ -1,7 +1,10 @@
 package main
 
+import "gotutorial/test"
 import "fmt"
 
 func main(){
-	fmt.Println("How are you doing?")
+	var step int = 19
+	testpackage.MyFunction(step)
+	fmt.Println(step)
 }
